@@ -1,0 +1,34 @@
+/* html, body
+{
+    height: 100%;
+    width: 100%;
+} */
+
+.card-img-top.icons{
+    width: 100%;
+}
+
+/* .icons {
+    height: 200px;
+    width: 100px;
+} */
+
+h1 {
+    font-family:  "Beiruti", sans-serif";
+    /* text-decoration: underline; */
+}
+
+.banner {
+    /* border: 2px solid black; */
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 50px;
+    height: 280px;
+    width: 100%;
+}
+.card:hover{
+    transform : scale(1.05);
+}
+.card{
+    margin: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
